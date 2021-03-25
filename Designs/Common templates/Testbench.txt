@@ -1,0 +1,86 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 11/21/2019 06:07:36 PM
+-- Design Name: 
+-- Module Name: Counter_tb - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity ______ is
+--  Port ( );
+end ________;
+
+architecture Behavioral of ____ is
+constant clk_period : time := 30ns;
+
+
+-- Component declaration of the unit under test
+component ______ 
+port (
+        
+); 
+
+end component;
+
+signal ___________ : std_logic;
+signal ___________ : std_logic_vector(15 downto 0);
+
+begin
+
+-- Instantiate UUT
+uut: _______ port map(
+
+______________________________
+
+);
+
+clk_process: process 
+   begin
+      clk <= '0';
+      wait for clk_period/2;
+      clk <= '1';
+      wait for clk_period/2;
+   end process;
+
+
+-- Stimulus process
+stim: process
+begin
+
+reset <= '1'; 
+wait for 3*clk_period;
+
+reset <= '0'; 
+en <= '1';
+direction <= '1';
+wait for 17*clk_period;
+
+end process;
+
+
+end Behavioral;

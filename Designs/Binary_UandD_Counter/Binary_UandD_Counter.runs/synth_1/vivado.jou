@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Thu Nov 21 22:01:32 2019
+# Process ID: 17304
+# Current directory: C:/Users/tabby/Documents/VHDL/Designs/Binary_UandD_Counter/Binary_UandD_Counter.runs/synth_1
+# Command line: vivado.exe -log BinaryUDCounter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BinaryUDCounter.tcl
+# Log file: C:/Users/tabby/Documents/VHDL/Designs/Binary_UandD_Counter/Binary_UandD_Counter.runs/synth_1/BinaryUDCounter.vds
+# Journal file: C:/Users/tabby/Documents/VHDL/Designs/Binary_UandD_Counter/Binary_UandD_Counter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source BinaryUDCounter.tcl -notrace
